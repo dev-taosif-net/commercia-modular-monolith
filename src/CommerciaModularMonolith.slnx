@@ -13,6 +13,6 @@
     <Project Path="Modules/Order/Order.Core/Order.Core.csproj" />
   </Folder>
   <Folder Name="/Shared/">
-    <Project Path="Modules/Shared/Shared/Shared.csproj" />
+    <Project Path="Shared/Shared/Shared.csproj" />
   </Folder>
 </Solution>

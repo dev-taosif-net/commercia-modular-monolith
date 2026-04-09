@@ -6,6 +6,6 @@ var builder = WebApplication.CreateBuilder(args);
 
 var app = builder.Build();
 #region Request pipeline
-
+app.MapGet("/", () => "API is working!");
 #endregion
 app.Run();
