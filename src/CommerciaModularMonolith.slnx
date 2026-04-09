@@ -4,7 +4,7 @@
   </Folder>
   <Folder Name="/Modules/" />
   <Folder Name="/Modules/Busket/">
-    <Project Path="Modules/Busket/Busket.Core/Busket.Core.csproj" />
+    <Project Path="Modules/Busket/Basket.Core/Basket.Core.csproj" />
   </Folder>
   <Folder Name="/Modules/Catalog/">
     <Project Path="Modules/Catalog/Catalog.Core/Catalog.Core.csproj" />

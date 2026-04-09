@@ -1,6 +1,15 @@
+using Basket.Core;
+using Catalog.Core;
+using Order.Core;
+
 var builder = WebApplication.CreateBuilder(args);
 
 #region Add Service To the container
+
+builder.Services
+    .AddCatalogModule(builder.Configuration)
+    .AddBasketModule(builder.Configuration)
+    .AddOrderModule(builder.Configuration);
 
 #endregion
 
