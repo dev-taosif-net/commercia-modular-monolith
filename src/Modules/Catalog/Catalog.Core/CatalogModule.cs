@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -9,5 +10,10 @@ public static class CatalogModule
         IConfiguration configuration)
     {
         return services;
+    }
+    
+    public static IApplicationBuilder UseCatalogModule(this IApplicationBuilder app)
+    {
+        return app;
     }
 }
